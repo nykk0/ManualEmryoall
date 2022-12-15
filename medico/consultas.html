@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual EmbryoAll - Médico</title>
+    <link rel="icon" href="https://lh5.googleusercontent.com/OdUm_yrNwxlEpcRe18enHNi679k0sgePMhjxmgxlHa-aMUQbQHK_QxoARqBxKgl6ryfNpv0F9hi_4Xzaf5oFZYF5Qgmbqok">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/styles/global.css">
+    <link rel="stylesheet" href="../assets/styles/img.css">
+
+</head>
+<body>
+    <header class="header1">
+        <div class="container">
+            <div class="logo">
+                <img src="/assets/img/logo_branco.png" alt="">
+                <h1><a href="../index.html">Manual EmbryoAll</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../admin.html">Administrador</a></li>
+                    <li><a href="../secretaria.html">Secretária</a></li>
+                    <li><a href="../medico.html">Médico</a></li>
+                    <li><a href="../equipe.html">Equipe de Orientação</a></li>
+                    <li><a href="../embriologista.html">Embriologista</a></li>
+                    <li><a href="https://drive.google.com/file/d/1z924c08EL4yiAcfuWUbnG4vbp9CZ9Z1G/view">Imprimir</a></li> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <header class="elementos">
+            <nav class="elementos"> 
+                <ul>
+                    <li><a href="consultas.html">Consultas</a></li>
+                    <li><a href="questionario_genetico.html">Questionário</a></li>
+                    <li><a href="orientacao_medico.html">Orientações</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <div class="container">
+        <img class="img_clinica" height="500px" width="400px" src="../assets/img/prints/consultas.png">
+        <article class="menu">           
+            <section id="home">
+                <h2 class="rosa">Menu Admin Clínica</h2>
+            </section>
+                    <section id="agenda">
+                        <h3>Botão Agenda:</h3>
+                        O médico terá acesso a agenda geral e segmentada:
+                        <br><br>No botão médico, o usuário seleciona qual agenda ele deseja visualizar, após selecionado, basta clicar no botão pesquisar, que a agenda será carregada.
+                        <br><br>No botão compartilhada, o usuário seleciona qual agenda, por setor, ele deseja visualizar, após selecionado, basta clicar no botão pesquisar, que a agenda será carregada.
+                        <br><br>É possível mudar a visualização da agenda clicando nos botões: mês, semana, dia e compromissos.
+                        <br><br>Para fazer um agendamento, basta dar um click no dia desejado no calendário, ao começar a digitar o nome no campo paciente o sistema já irá realizar a busca, escolha o médico, a data já virá preenchida de acordo com o dia que você selecionou, digite a hora da consulta, o tempo, o tipo, o convenio já virá preenchido de acordo com o cadastro feito pela secretaria.
+                         Após preenchimento de todos os campos, marque com quem você deseja compartilhar este agendamento, clique em agendar e está concluído.
+                        <br><br>Clicando em cima do nome da paciente na agenda você será direcionado as informações gerais do agendamento, dentro desta caixa informativa é possível ir
+                         ao prontuário da paciente clicando no botão prontuário.
+                    </section>
+
+                    <section id="financeiro">
+                        <h3>Botão Bloqueio de Agenda:</h3>
+                        Clicando neste botão o médico poderá realizar bloqueios em sua agenda, para evitar que alguém agende alguma consulta em dias que você tem algum compromisso.
+                        <br><br>Para realizar o bloqueio, basta clicar no botão cadastrar, selecionar para quem será realizado o bloqueio, a data de início e fim, a hora de início e fim e o motivo. 
+                        Após clicar em salvar.
+                        <br><br>Caso tenha digitado alguma informação errada basta clicar em cancelar ou depois do cadastro salvo clicar no botão de edição.
+                    </section>
+
+                    <section id="orientacoes">
+                        <h3>Botão Todas as consultas:</h3>
+                        Acesso a todas consultas com diferentes tipos de filtros, opção de editar consultas e também impressão de uma listagem de consultas por período de tempo.
+                        <br> <br>Para pesquisar consultas, basta clicar no filtro desejado adicionar uma data de início e uma de fim (obrigatório) e clicar em pesquisar.
+                        <br> <br> Para alterar uma consulta basta clicar no ícone a frente da consulta, fazer a alteração desejada e clicar em salvar.
+                    </section>
+
+                    <section id="jornada-paciente">
+                        <h3>Botão Linha do tempo pacientes:</h3>
+                        Através desse botão é possível visualizar TUDO já realizado pela paciente dentro da clínica, como por exemplo: - Consultas, Exames e Procedimentos.
+                        <br>
+                        Para isso basta digitar o nome da paciente na busca e clicar em pesquisar.
+                        <br><br><a href="../medico.html">Voltar ao menu do Medico</a>
+                      </section>
+
+        </article>
+    </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Copyright © EmbryoAll - 2022</p>
+        </div>
+    </footer>
+    <script src="js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+main .container{
+    display: block;
+    padding: 5em;
+    margin: 0;
+    max-width: 1440px;
+}
+.img_clinica{
+    float: left;
+    border: transparent thin solid;
+    padding: 20px;
+    padding-bottom: 450px;
+    margin: 0px 10px 10px 0;
+}
+
+.rosa{
+    color: #FF2970;
+    
+}
+.img_financeiro{
+    float: left;
+    border: transparent thin solid;
+    padding: 50px;
+    padding-bottom: 5px;
+    margin: 0px 10px 10px 0;
+}
+
+.img_right{
+    float: right;
+    border: transparent thin solid;
+    padding: 20px;
+    padding-bottom: 400px;
+    margin: 0px 10px 10px 0;
+
+}
+
+.header1 {
+    background: #bd0c64cc url(../img/backgroud.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.elementos
+ {
+    background: #bd0c64cc;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+ }
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 100px;
+    
+}
+
+.logo img{
+    height: 100%;
+    width: auto;
+}
+
+header .logo a {
+    display: block;
+    margin: 0px;
+    color: #FDFDFD;
+    text-decoration: none;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav a {
+    color: #FDFDFD;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0 10px;
+}
+
+footer {
+    background: #bd0c64cc;
+    display: flex;
+    justify-content: center;
+}

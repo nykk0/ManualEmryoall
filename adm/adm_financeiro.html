@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual EmbryoAll - Administrador</title>
+    <link rel="icon" href="https://lh5.googleusercontent.com/OdUm_yrNwxlEpcRe18enHNi679k0sgePMhjxmgxlHa-aMUQbQHK_QxoARqBxKgl6ryfNpv0F9hi_4Xzaf5oFZYF5Qgmbqok">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/styles/global.css">
+    <link rel="stylesheet" href="../assets/styles/img.css">
+
+</head>
+<body>
+    <header class="header1">
+        <div class="container">
+            <div class="logo">
+                <img src="/assets/img/logo_branco.png" alt="">
+                <h1><a href="../index.html">Manual EmbryoAll</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../admin.html">Administrador</a></li>
+                    <li><a href="../secretaria.html">Secretária</a></li>
+                    <li><a href="../medico.html">Médico</a></li>
+                    <li><a href="../equipe.html">Equipe de Orientação</a></li>
+                    <li><a href="../embriologista.html">Embriologista</a></li>
+                    <li><a href="https://drive.google.com/file/d/1z924c08EL4yiAcfuWUbnG4vbp9CZ9Z1G/view">Imprimir</a></li> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <header class="elementos">
+            <nav class="elementos"> 
+                <ul>
+                    <li><a href="adm_orientacoes.html">Orientações  </a></li>
+                    <li><a href="adm_clinica.html">Clínica</a></li>
+                    <li><a href="adm_financeiro.html">Financeiro</a></li>
+                    <li><a href="adm_usuario.html">Usuários</a></li>
+                </ul>
+            </nav>
+    </header>
+    <img class="img_financeiro" width="380px" src="../assets/img/prints/financeiro.png">
+        <div class="container">
+            <article class="menu">
+               
+                <section id="home">
+                    <h2 class="rosa">Menu Financeiro <br></h2>
+                        </section>
+
+                        <section id="agenda">
+                            <h3>Botão Saldo</h3>
+                            Acesso aos números totais de entradas, saídas e saldo geral da clínica.
+                        </section>
+
+                        <section id="financeiro">
+                            <h3>Botão Contas:</h3>
+                            Onde serão cadastrados os tipos de contas existentes em sua clínica (entradas e saídas).
+                            <br><br>
+                            Para cadastro basta clicar no botão cadastrar, preencher os dados da conta e clicar em salvar. Vale a pena lembrar que sempre que necessário essas 
+                            contas poderão ser editadas e excluídas clicando nos botões de editar e excluir localizados a frente do nome da conta.
+                        </section>
+
+                        <section id="orientacoes">
+                            <h3>Botão Entradas:</h3>
+                            Onde serão cadastrados todos os pagamentos realizados por pacientes em sua clínica.
+                            <br><br>
+                            Para cadastro, basta clicar no botão cadastrar, selecionar a paciente, digitar a descrição, selecionar o tipo de conta que aparecerá de acordo com o
+                             que foi cadastrado no botão cadastro de contas, digitar o valor, a forma de pagamento e se o pagamento for parcelado irá aparecer os campos de entrada, 
+                             número de parcelas e data de vencimento. O valor é calculado automaticamente. Após o preenchimento basta clicar em salvar que a entrada será cadastrada 
+                             juntamente com as parcelas. Todas as vezes que uma parcela for paga basta clicar no check a frente da parcela correspondente.
+                         </section>
+
+                        <section id="jornada-paciente">
+                            <h3>Botão Contas a Pagar:</h3>
+                            Onde serão cadastrados todas as contas a serem pagas.
+                            <br><br>
+                            Para cadastro, basta clicar no botão cadastrar, digitar a descrição da conta, selecionar o tipo de conta, o valor, a forma de pagamento e se será
+                             parcelado ou não, se a conta for parcelada, aparecerá os campos entrada, número de parcelas e data de vencimento. Após o preenchimento clicar em salvar.
+                              Toda vez que uma parcela de suas contas for paga basta clicar no check que o sistema dará baixa automaticamente nesta parcela.
+                          </section>
+
+                        <section id="area-paciente">
+                            <h3>Criopreservado:</h3>
+                            Integração direta com os bancos de crio preservação do laboratório, afim de facilitar e controlar a cobrança da taxa de manutenção de gametas e embriões.
+                        </section> 
+                        <br><br><a href="admin.html">Voltar ao menu do Administrador</a>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Copyright © EmbryoAll - 2022</p>
+        </div>
+    </footer>
+    <script src="js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+.img_clinica{
+    float: left;
+    border: transparent thin solid;
+    padding: 20px;
+    padding-bottom: 470px;
+    margin: 0px 10px 10px 0;
+}
+
+.img_financeiro{
+    float: left;
+    border: transparent thin solid;
+    padding: 50px;
+    padding-bottom: 120px;
+    margin: 0px 10px 10px 0;
+}
+.img_medico
+{
+    float: left;
+    border: transparent thin solid;
+    padding: 20px;
+    padding-bottom: 600px;
+    margin: 0px 10px 10px 0;
+}
+
+.img_centro
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto   
+}
+
+.img_usuario{
+    float: left;
+    border: transparent thin solid;
+    margin: 0px 10px 10px 0;
+}
+
+
+.img_right{
+    float: right;
+    border: transparent thin solid;
+    padding: 20px;
+    padding-bottom: 400px;
+    margin: 0px 10px 10px 0;
+
+}
