@@ -21,6 +21,16 @@ main .container{
     color: #FF2970;
     
 }
+
+.orientacao
+{
+    display: block;
+    padding: 5em;
+    margin: 0;
+    max-width: 1440px;
+    padding-bottom: 26em;
+}
+
 .img_financeiro{
     float: left;
     border: transparent thin solid;
