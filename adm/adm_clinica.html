@@ -39,8 +39,10 @@
         <header class="elementos">
             <nav class="elementos"> 
                 <ul>
+                    <li><a href="../admin.html">Admin  </a></li>
                     <li><a href="adm_orientacoes.html">Orientações  </a></li>
-                    <li><a href="">Clínica</a></li>
+                    <li><a href="adm_clinica.html">Clínica</a></li>
+                    <li><a href="adm_paciente.html">Paciente</a></li>
                     <li><a href="adm_financeiro.html">Financeiro</a></li>
                     <li><a href="adm_usuario.html">Usuários</a></li>
                 </ul>
@@ -48,7 +50,7 @@
     </header>
 
     <div class="container">
-        <img class="img_clinica" src="../assets/img/prints/clinica.png">
+        <img class="img_clinica_admin" src="../assets/img/prints/clinica.png">
         <article class="menu">           
             <section id="home">
                 <h2 class="rosa">Menu Admin Clínica</h2>
@@ -66,15 +68,6 @@
                         fazer o backup e clicar em exportar. Após clicar em exportar, uma planilha em excel será gerada automaticamente em seu computador.
                     </section>
 
-                    <section id="orientacoes">
-                        <h3>Botão Bloqueio de Agenda:</h3>
-                        Clicando neste botão o administrador poderá realizar bloqueio nas agendas particulares de cada médico ou também um bloqueio geral.
-                        <br>
-                        Para realizar o bloqueio, basta clicar no botão cadastrar, selecionar para quem será realizado o bloqueio, a data de início e fim, a hora de início e fim e o motivo. Após clicar em salvar.
-                        <br>
-                        Caso tenha digitado alguma informação errada basta clicar em cancelar ou depois do cadastro salvo clicar no botão de edição.
-                    </section>
-
                     <section id="jornada-paciente">
                         <h3>Botão Cargos:</h3>
                         Botão onde serão cadastrados todos os cargos de funcionários da clínica que terão acesso ao sistema.
@@ -89,31 +82,71 @@
                         Para cadastrar basta clicar no botão cadastrar, digitar o nome do convênio e clicar no botão salvar. Após o cadastro, o convênio poderá ser excluído clicando na lixeira a frete do nome ou editado, clicando no ícone a frente do nome.
                     </section>
 
-                    <section id="controle-estoque">
-                        <h3>Botão Consultas:</h3>
-                        Botão referente ao acompanhamento das consultas. Através desse botão o administrador poderá realizar diferentes tipos de filtros de consultas, visualizar o status dessas consultas além de poder imprimir clicando no ícone da impressora.
-                        <br>
-                        Obs: Para realizar uma impressão de relatório de consultas é necessário digitar a data de início e fim.
-                    </section>
-
-                    <section id="usuarios">
-                        <h3>Botão Tipos de Consultas:</h3>
-                        Botão no qual será cadastradas os tipos de consultas/procedimentos, que são realizados em sua clínica. Escolhendo sempre uma cor, que será correspondente ao que irá aparecer na agenda.
+                    <section id="termos-de-uso">
+                        <h3> Tipos de serviços:</h3>
+                        <p>
+                            Botão no qual serão cadastradas todos os tipos de serviços que a clínica faz , listando todos os tipos de serviços , ao lado de todos os cadastrados possui 2 botões um para edição e outro de exclusão. <br> Para fazer o cadastro basta apertar no botão cadastrar e preencher todos os campos pedidos como nome , valor e tempo de consulta.
+                        </p>
                     </section>
 
                     <section id="termos-de-uso">
-                        <h3>Botão Tipos de Laudos:</h3>
+                        <h3> Convênios por tipo de serviços:</h3>
+                        <p>
+                            Botão no qual serão cadastradas todos os convênios que a clínica aceita em seus serviços .<br>Para adicionar o convênio ao tipo de serviço basta selecionar o tipo e aparecera todos os convênios já cadastrados pelo admin.</p>
+                    </section>
+
+                    <section id="termos-de-uso">
+                        <h3> Repasse por tipos de serviços:</h3>
+                        <p>
+                            Botão no qual será cadastrado todos os repasses aos medicos por tipo de serviço.<br>Para adicionar um repasse basta selecionar o tipo de serviço e aparecera todos os médicos cadastrados , basta adicionar os valores por medico .
+                      </p>
+                    </section>
+
+                    <section id="termos-de-uso">
+                        <h3> Prazos para retorno:</h3>
+                        <p>
+                            Botão no qual serão cadastradas todos os prazos para retorno do paciente por medico .</p>
+                    </section>
+
+                    
+                    <section id="termos-de-uso">
+                        <h3> Tipos de Laudos:</h3>
                         <p>
                             Botão no qual serão cadastradas todas as áreas emissoras de laudos da clínica. Ex: Ginecologia, Reprodução Humana, Urologia, Laboratório, etc. (Esse cadastro é importante, pois todos os laudos criados serão vinculados a um profissional responsável por emiti-lo.
                         </p>
                     </section>
 
-                    <section id="fale-conosco">
-                        <h3>Botão Linha do tempo pacientes:</h3>
-                        Através desse botão é possível visualizar TUDO já realizado pela paciente dentro da clínica, como por exemplo: - Consultas, Exames e Procedimentos.
-                        Para isso basta digitar o nome da paciente na busca e clicar em pesquisar.
+                    <section id="usuarios">
+                        <h3> Tipos de tratamentos:</h3>
+                        Botão no qual será cadastradas todos os tipos de tratamentos realizados pelo clícnica . 
+                    </section>
 
-                        <br><br><a href="../admin.html">Voltar ao menu do Administrador</a>
+                    <section id="fale-conosco">
+                        <h3>Conduta Laboratório:</h3>
+                        Através desse botão é possível visualizar e fazer o cadastro de todas as condutas laboratoriais utilizadas pela clínica .<br> Para cadastrar basta apertar no botão cadastrar e preencher todos os campos pedidos , a frente de todos os cadastros possui uma área com 2 botões um de edição e o outro de exclusão .
+                    </section>
+
+                    <section id="fale-conosco">
+                        <h3>Bandeiras Cartão:</h3>
+                        Através desse botão é possível visualizar e fazer o cadastro de todas as bandeiras de cartão utilizadas pela clínica .<br> Para cadastrar basta apertar no botão cadastrar e preencher todos os campos pedidos , a frente de todos os cadastros possui uma área com 2 botões um de edição e o outro de exclusão .
+
+                    </section>
+
+                    <section id="fale-conosco">
+                        <h3>Conta corrente:</h3>
+                        Através desse botão é possível visualizar e fazer o cadastro de todas as contas correntes .<br> Para cadastrar basta apertar no botão cadastrar e preencher todos os campos pedidos , a frente de todos os cadastros possui uma área com 2 botões um de edição e o outro de exclusão .
+
+                    </section>
+
+                    <section id="fale-conosco">
+                        <h3>Locais de Estoque:</h3>
+                        Através desse botão é possível visualizar e fazer o cadastro de todos os locais de Estoque da clinica como almoxafirado, geladeiras e etc.<br> Para cadastrar basta apertar no botão cadastrar e preencher todos os campos pedidos , a frente de todos os cadastros possui uma área com 2 botões um de edição e o outro de exclusão .
+                    </section>
+
+                    <section id="fale-conosco">
+                        <h3>Fornecedores:</h3>
+                        Através desse botão é possível visualizar e fazer o cadastro de todos os Fornecedores da clinica .<br> Para cadastrar basta apertar no botão cadastrar e preencher todos os campos pedidos , a frente de todos os cadastros possui uma área com 2 botões um de edição e o outro de exclusão .
+                        <br><br><a class="rosa" href="../admin.html">Voltar ao menu do Administrador</a>
                     </section>
 
 

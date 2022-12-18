@@ -39,8 +39,11 @@
         <header class="elementos">
             <nav class="elementos"> 
                 <ul>
+                    
+                    <li><a href="">Admin  </a></li>
                     <li><a href="adm/adm_orientacoes.html">Orientações  </a></li>
                     <li><a href="adm/adm_clinica.html">Clínica</a></li>
+                    <li><a href="adm/adm_paciente.html">Paciente</a></li>
                     <li><a href="adm/adm_financeiro.html">Financeiro</a></li>
                     <li><a href="adm/adm_usuario.html">Usuários</a></li>
                 </ul>
@@ -62,65 +65,69 @@
         <div class="container">
             
             <article class="menu">
-                <img class="img_clinica" width="180px" src="assets/img/prints/admin.png" >
+                <img class="img_sec" src="assets/img/prints/admin.png" >
                 <section id="home">
                     <h2 class="rosa">Menu do Administrador</h2>
                         </section>
                         <section id="agenda">
                             <h3>1.1 Home:</h3>
-                            Página inicial do usuário, nela o administrador poderá observar o número de consultas e tratamentos iniciados por período (Dia, Mês ou ano).
+                            Página inicial do usuário, nela o administrador poderá observar o número de consultas e tratamentos iniciados por período (Dia, Mês ou ano) e o financeiro do mês , entradas e saídas e um resumo de todo financeiro.
                             <br>Esta página poderá ser configurada com informações solicitadas pela administração de acordo com a necessidade de cada cliente.
                         </section>
 
-                        <section id="financeiro">
-                            <h3>1.2 Agenda:</h3>
-                            O administrador terá acesso a agenda geral e segmentada:
-                            <br>No botão médico, o usuário seleciona qual agenda ele deseja visualizar, após selecionado, basta clicar no botão pesquisar, que a agenda será carregada.
-                            <br> No botão compartilhada, o usuário seleciona qual agenda, por setor, ele deseja visualizar, após selecionado, basta clicar no botão pesquisar, que a agenda será carregada.
-                            <br>Clicando em cima do nome da paciente o usuário terá uma visualização detalhada sobre o agendamento como: Id, médico, paciente, data, início, fim e tipo de consulta.
-                            <br>É possível mudar a visualização da agenda clicando nos botões: mês, semana, dia e compromissos.
+                        <section id="orientacoes">
+                            <h3>1.2 Adm Clínica:</h3>
+                            O cadastro da clínica deve ser realizado antes do cadastro dos usuários pois todo usuário deve obrigatoriamente ser vinculado a uma clínica. Para ter acesso ao sub-menu, <a class="rosa" href="adm/adm_clinica.html"> clique aqui</a>.
                         </section>
 
-                        <section id="orientacoes">
-                            <h3>1.3 Adm Clínica:</h3>
-                            O cadastro da clínica deve ser realizado antes do cadastro dos usuários pois todo usuário deve obrigatoriamente ser vinculado a uma clínica. Para ter acesso ao sub-menu, <a href=""> clique aqui</a>.
+                        <section id="financeiro">
+                            <h3>1.3 Agenda:</h3>
+                            O administrador terá acesso a agenda geral e segmentada:
+                            <br><br>No botão médico, o usuário seleciona qual agenda ele deseja visualizar, após selecionado, basta clicar no botão pesquisar, que a agenda será carregada.
+                            <br><br> No botão compartilhada, o usuário seleciona qual agenda, por setor, ele deseja visualizar, após selecionado, basta clicar no botão pesquisar, que a agenda será carregada.
+                            <br><br>Clicando em cima do nome da paciente o usuário terá uma visualização detalhada sobre o agendamento como: Id, médico, paciente, data, início, fim e tipo de consulta.
+                            <br><br>É possível mudar a visualização da agenda clicando nos botões: mês, semana, dia e compromissos.
                         </section>
 
                         <section id="jornada-paciente">
                             <h3>1.4 Financeiro:</h3>
-                            O administrador terá acesso ao painel de saldo consolidado, cadastro de tipos de contas, lançamento de contas a pagar e a receber. Para ter acesso ao sub-menu,<a href=""> clique aqui</a>.
+                            O administrador terá acesso ao painel de saldo consolidado, cadastro de tipos de contas, lançamento de contas a pagar e a receber. Para ter acesso ao sub-menu,<a class="rosa" href="adm/adm_financeiro.html"> clique aqui</a>.
                         </section>
 
                         <section id="area-paciente">
                             <h3>1.5 Orientações e Receitas:</h3>
-                            Botão de cadastro de atestados, laudos, orientações, exames e receitas. Para ter acesso ao sub-menu, <a href=""> clique aqui</a>.
+                            Botão de cadastro de atestados, laudos, orientações, exames e receitas. Para ter acesso ao sub-menu, <a  class="rosa" href="adm/adm_orientacoes.html"> clique aqui</a>.
+                        </section>
+
+                        <section id="area-paciente">
+                            <h3>1.6 Jonada da paciente:</h3>
+                            O administrador terá acesso a todas as pacientes. Para ter acesso ao sub-menu, <a class="rosa" href="adm/adm_paciente.html"> clique aqui</a>.
                         </section>
 
                         <section id="controle-estoque">
-                            <h3>1.6 Medicação:</h3>
-                            Botão no qual serão cadastradas todas as medicações utilizadas pelo médico no tratamento. Neste campo o sistema já traz algumas medicações pré cadastradas, caso você deseje, elas poderão ser editadas ou excluídas clicando nos ícones correspondentes
-                             logo a frente do nome da medicação. Para cadastro, basta clicar em cadastrar e preencher os campos e clicar em salvar.
+                            <h3>1.7 Área da paciente:</h3>
+                            Botão no qual lista todas as pacientes e possui um breve grafico dos acessos a área da paciente.
                         </section>
 
                         <section id="usuarios">
-                            <h3>1.7 Pacientes:</h3>
+                            <h3>1.8 Controle de Estoque:</h3>
                             Onde o administrador terá acesso ao cadastro dos pacientes.
                         </section>
 
                         <section id="termos-de-uso">
-                            <h3>1.8 Usuários:</h3>
+                            <h3>1.9 Usuários:</h3>
                             <p>
-                                Onde o administrador fará a gestão de todos os usuários do sistema. Para ter acesso ao sub-menu, <a href=""> clique aqui</a>.
+                                Onde o administrador fará a gestão de todos os usuários do sistema. Para ter acesso ao sub-menu, <a class="rosa" href="adm/adm_usuario.html"> clique aqui</a>.
                             </p>
                         </section>
 
                         <section id="fale-conosco">
-                            <h3>1.9 Termos de uso:</h3>
+                            <h3>1.10 Termos de uso:</h3>
                             Acesso ao nosso termo de uso e política de privacidade. Leia com atenção e após a leitura, se estiver de acordo, clique no botão aceitar.
                         </section>
 
                         <section id="sair">
-                            <h3>1.10 – Fale conosco:</h3>
+                            <h3>1.11 – Fale conosco:</h3>
                             Botão de comunicação via e-mail com nossa equipe de suporte. Qualquer problema pode ser reportado digitando o assunto, a área que o problema ocorreu e sua mensagem. Após digitado, basta clicar em enviar, e o mais breve possível entraremos em contato para solucionar o problema reportado.
                         </section>
 

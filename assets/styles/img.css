@@ -47,6 +47,15 @@
     margin: 0px 10px 10px 0;
 }
 
+.img_clinica_admin
+{
+    float: left;
+    border: transparent thin solid;
+    padding: 20px;
+    padding-bottom: 1000px;
+    margin: 0px 10px 10px 0;
+
+}
 .img_centro
 {
     display: block;
